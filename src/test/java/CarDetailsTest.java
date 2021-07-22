@@ -74,7 +74,5 @@ public class CarDetailsTest {
         Assert.assertEquals(0, details, 0);
     }
 
-    public static void convertToElectric(){
 
-    }
 }

@@ -42,4 +42,14 @@ public class CarUtils {
         mileage = 0;
 
     }
+
+    public static void convertToElectric(){
+        Car car = new Car();
+//        String engineType = car.isElectric();
+        boolean engineType = car.isElectric();
+
+        if(engineType.equals)){
+        }
+
+    }
 }
