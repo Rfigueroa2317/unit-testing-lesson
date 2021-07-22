@@ -74,5 +74,21 @@ public class CarDetailsTest {
         Assert.assertEquals(0, details, 0);
     }
 
+    @Test
+    public void GetBothTrueAndFalseForThisOneCodeWereWorkingOn(){
+
+        // Arrange
+        Car car = new Car();
+        car.setElectric(true);
+
+
+        // Act
+        CarUtils.convertToElectric(car,"electric");
+
+        // Assert
+        Assert.assertTrue("electric",car.isElectric());
+
+    }
+
 
 }

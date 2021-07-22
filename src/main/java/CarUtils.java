@@ -43,12 +43,15 @@ public class CarUtils {
 
     }
 
-    public static void convertToElectric(){
-        Car car = new Car();
+    public static void convertToElectric(Car car, String engineType){
+//        Car car1 = new Car();
 //        String engineType = car.isElectric();
-        boolean engineType = car.isElectric();
+//        boolean engineType = car.isElectric();
 
-        if(engineType.equals)){
+        if(engineType.contains("electric")){
+            car.setElectric(true);
+        }else{
+            car.setElectric(false);
         }
 
     }
