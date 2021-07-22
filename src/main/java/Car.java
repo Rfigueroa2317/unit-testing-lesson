@@ -18,6 +18,9 @@ public class Car {
 
     public Car(){}
 
+    public static void setMileage(String s) {
+    }
+
     public String getMake() {
         return make;
     }
@@ -51,10 +54,10 @@ public class Car {
     }
 
     public double getMileage() {
-        return mileage;
+        return mileage = 0.0;
     }
 
-    public void setMileage(double mileage) {
+    public void setMileage() {
         this.mileage = mileage;
     }
 

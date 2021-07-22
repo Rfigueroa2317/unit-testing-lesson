@@ -60,11 +60,21 @@ public class CarDetailsTest {
         Assert.assertEquals("Not able to provide details", details);
     }
 
-    public void setMileage(double mileage){
+    @Test
+    public void setMileage(){
 
         // Arrange
         Car car = new Car();
         Car.setMileage("100");
+
+        // Act
+        double details = car.getMileage();
+
+        // Assert
+        Assert.assertEquals(0, details, 0);
+    }
+
+    public static void convertToElectric(){
 
     }
 }

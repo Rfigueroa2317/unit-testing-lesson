@@ -35,14 +35,11 @@ public class CarUtils {
         return car.getColor();
     }
 
-        public static void addToMileage(double mileage){
+    public static void addToMileage(double mileage) {
         Car car = new Car();
         double mileageToAdd = mileage;
 
         mileage = 0;
 
-
-
-        }
-
+    }
 }
